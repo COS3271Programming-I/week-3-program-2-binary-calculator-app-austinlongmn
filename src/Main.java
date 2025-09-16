@@ -43,5 +43,26 @@ public class Main {
       binarySecondNumber,
       Integer.toBinaryString(firstNumber / secondNumber)
     );
+
+    System.out.format(
+      "%s & %s = %s\n",
+      binaryFirstNumber,
+      binarySecondNumber,
+      Integer.toBinaryString(firstNumber & secondNumber)
+    );
+
+    System.out.format(
+      "%s | %s = %s\n",
+      binaryFirstNumber,
+      binarySecondNumber,
+      Integer.toBinaryString(firstNumber | secondNumber)
+    );
+
+    System.out.format(
+      "%s ^ %s = %s\n",
+      binaryFirstNumber,
+      binarySecondNumber,
+      Integer.toBinaryString(firstNumber ^ secondNumber)
+    );
   }
 }
